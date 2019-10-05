@@ -14,9 +14,9 @@
 // limitations under the License.
 
 import 'dart:math' show max, pow, Point;
-import 'dart:ui' show lerpDouble;
+import 'package:flutter_web_ui/ui.dart' show lerpDouble;
 
-import 'package:flutter/widgets.dart' show AnimationController;
+import 'package:flutter_web/widgets.dart' show AnimationController;
 
 import 'package:charts_common/common.dart' as common
     show BaseChart, ChartBehavior, PanBehavior, PanningCompletedCallback;
